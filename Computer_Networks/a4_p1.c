@@ -4,7 +4,7 @@ main()
 {
         int pipefd[2],n;
 
-                char buff[100];
+        char buff[100];
         pipe(pipefd);
         printf("\nreadfd=%d",pipefd[0]);
         printf("\nwritefd=%d",pipefd[1]);
