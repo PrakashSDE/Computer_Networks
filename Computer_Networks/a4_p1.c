@@ -1,5 +1,6 @@
 
 #include<stdlib.h>
+#include<stdio.h>
 main()
 {
         int pipefd[2],n;
